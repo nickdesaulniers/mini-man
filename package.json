@@ -1,6 +1,6 @@
 {
   "name": "mini-man",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Generate a mini manifest from a manifest file for Firefox OS",
   "bin": "bin/index.js",
   "scripts": {
