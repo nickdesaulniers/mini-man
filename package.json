@@ -1,0 +1,21 @@
+{
+  "name": "mini-man",
+  "version": "0.0.0",
+  "description": "Generate a mini manifest from a manifest file for Firefox OS",
+  "bin": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Firefox",
+    "OS",
+    "FxOS",
+    "FFOS",
+    "mini",
+    "manifest",
+    "package",
+    "path"
+  ],
+  "author": "Nick Desaulniers",
+  "license": "Beerware"
+}
