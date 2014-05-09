@@ -24,5 +24,7 @@ if ('package_path' in manifest) exit('package_path already exists');
 
 manifest.package_path = process.argv[3];
 
+if ('installs_allowed_from' in manifest) manifest.installs_allowed_from = ['*'];
+
 console.log(JSON.stringify(manifest, null, 2));
 
